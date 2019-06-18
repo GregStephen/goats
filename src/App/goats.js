@@ -49,6 +49,16 @@ const goats = [
     isFainting: false,
     color: 'black',
   },
+  {
+    id: 'goat6',
+    name: 'Shelley',
+    disposition: 'hateful',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg',
+    fullness: 55,
+    favPose: 'Karnapidasana',
+    isFainting: true,
+    color: 'brown',
+  },
 ];
 
 export default goats;
