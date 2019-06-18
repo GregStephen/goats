@@ -19,7 +19,7 @@ class App extends React.Component {
     const { goats } = this.state;
     return (
       <div className="App">
-        <div>Goat Yoga</div>
+        <div id="goat-yoga-title">Goat Yoga</div>
         <GoatCorral goats={ goats }/>
       </div>
     );
